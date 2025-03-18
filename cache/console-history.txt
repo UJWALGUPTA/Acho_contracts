@@ -1,0 +1,15 @@
+console.log("Deployer balance:", (await deployer.getBalance()).toString());
+const [deployer] = await ethers.getSigners();
+console.log("Private Key:", wallet.privateKey);
+console.log("New Mnemonic:", wallet.mnemonic.phrase);
+console.log("New Address:", wallet.address);
+const wallet = ethers.Wallet.createRandom();
+console.log("Deployer balance:", (await deployer.getBalance()).toString());
+const [deployer] = await ethers.getSigners();
+console.log("Deployer balance:", (await deployer.getBalance()).toString());
+const [deployer] = await ethers.getSigners();
+console.log("Deployer balance:", (await deployer.getBalance()).toString());
+const [deployer] = await ethers.getSigners();
+console.log("Deployer balance:", (await deployer.getBalance()).toString());
+const [deployer] = await ethers.getSigners();
+que
